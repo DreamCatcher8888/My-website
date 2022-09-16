@@ -1,3 +1,4 @@
+/* header in */
 .header {
   width: 100%;
   height: 55px;
@@ -19,7 +20,10 @@
   color: #333;
   border-left: 1px solid #dadada;
 }
+/* header out */
+/* navgiation in */
 .nav {
+  position: relative;
   width: 100%;
   height: 60px;
   line-height: 60px;
@@ -61,4 +65,108 @@
 }
 .nav li:hover span {
   color: #c2a060;
+}
+.nav-list-xinwenzixun {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 140px;
+  background: url(../images/subnav_bg_5cc9309.jpg) no-repeat center 0;
+}
+.nav-list-shishenlu {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 140px;
+  background: url(../images/subnav_bg_5cc9309.jpg) no-repeat center 0;
+}
+.nav-list-youxigonglue {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 140px;
+  background: url(../images/subnav_bg_5cc9309.jpg) no-repeat center 0;
+}
+.nav-list-dashequ {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 140px;
+  background: url(../images/subnav_bg_5cc9309.jpg) no-repeat center 0;
+}
+.nav-list-fanyule {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 140px;
+  background: url(../images/subnav_bg_5cc9309.jpg) no-repeat center 0;
+}
+.nav-list-shitingzhongxin {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 140px;
+  background: url(../images/subnav_bg_5cc9309.jpg) no-repeat center 0;
+}
+.nav-list-guanfangqudao {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  height: 140px;
+  background: url(../images/subnav_bg_5cc9309.jpg) no-repeat center 0;
+}
+.nav li:hover > .nav-list-xinwenzixun {
+  display: block;
+}
+.nav li:hover > .nav-list-shishenlu {
+  display: block;
+}
+.nav li:hover > .nav-list-youxigonglue {
+  display: block;
+}
+.nav li:hover > .nav-list-dashequ {
+  display: block;
+}
+.nav li:hover > .nav-list-fanyule {
+  display: block;
+}
+.nav li:hover > .nav-list-shitingzhongxin {
+  display: block;
+}
+.nav li:hover > .nav-list-guanfangqudao {
+  display: block;
+}
+/* navgiation out */
+.banner {
+  height: 784px;
+  top: -10px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.banner > img {
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
 }
